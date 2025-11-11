@@ -16,15 +16,17 @@ For this project, an appropriate architectural style needs to be chosen in order
 
 ## Decision Outcome
 
+Monolithic is one potential architectural style for the CMS project. Monolithic architecture is where all the systems share one unit. This means all the systems would share a singular codebase. A benefit of the Monolithic architecture is that it has high performance, as all the systems are in one place. Whereas the microservices approach requires interoperability, meaning it may take slightly longer for data to be exchanged between systems. However, this means that the style will also have slower development, as we would have to redeploy the whole application rather than small parts.
+
+Microservices Architecture is where the system is made of smaller services (APIs). A benefit of this architecture is that the system has faster development, as you can develop the application in smaller parts, minimising downtime. Whereas the monolithic approach requires the entire system to redeploy. However, a disadvantage of Microservice architecture is that for larger organisations such as NatWest, it may increase complexities as you will need more microservices. 
+
+Service-based Architecture is where the system is made up of small services. A benefit of this architecture is that it has simple system management, because the architecture does not require a vast complex amount of APIs. Whereas the Microservice architecture does. A disadvantage is that this architecture gets moer complex depending on the size of the organisation. However, not as complex as the Microservice architecture.
+
 Chosen option: "Service-Oriented Architecture", because it provides important characteristics needed for the system, such as interoperability.
-This is an important attribute as it allows systems to exchange data/information with one another. 
+Interoperability is where different systems have the ability to exchange information with one another. 
 The CMS should use a multi-tenant approach as it will have different Tenants, such as Vodafone and EE, who may use different external systems, such as SMS systems.
+This means that the Monolithic approach should not be considered. As the system will also cater to large tenants, using a Microservice architecture may make management too complex. Therefore, the service-oriented architecture is the best option.
 
-<!-- This is an optional element. Feel free to remove. -->
-### Consequences
 
-* Service-based architecture is good because it has a high reliability since it is easier to debug small services than large amounts of code.
-* Service-based architecture is also good because it allows extensibility for the future, so the system can incorporate chatbots and other services.
-* Service-based architecture may be bad because it can be highly complex to manage services, especially for larger businesses.
-* Service-based architecture may also be bad because it can require a high initial investment, this is important as ABC limited still need to seek for capital funding.
+
 
