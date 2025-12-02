@@ -16,9 +16,9 @@ A technology stack is needed for this project.
 For the front-end of this project, i have decided to use React . The reason why i have used React is because it uses component-based architecture (React,n.d.), this is important for this CMS as it means that we can integrate other features such as a chatbot in the future without  having to recoding the entire codebase.
 Furthermore, this is also important as it allows the system to be more scalable, allowing extensability in the future as ABC Limited want to target other continents .However, a disadvantage of this component-based architetcture is that for bigger organisations it can introduce complexity as they may use more components.
 
-For the back-end of this project, i have decided to use ASP.NET. The reason for this is because it provides much needed security for the system, as the system follows industry standard authentication protocols (dotnet, n.d.). This is important as ABC limited want a secure multi-tenant approach system that has data privacy, where 2 organisations can not see each others data.
+For the back-end of this project, i have decided to use ASP.NET.The reason I'm using this is that it is a strong, robust foundation for RESTful APIs, which is important as I'm using a SOA. Another reason for this is because it provides much needed security for the system, as the system follows industry standard authentication protocols (dotnet, n.d.). This is important as ABC limited want a secure multi-tenant approach system that has data privacy, where 2 organisations can not see each others data.
 
-I am using PostgreSQL as it has a high availability and sacalibility (azure.microsoft, n.d.) , this means that any potential downtime is reduced. This is important as this system will be a 24/7 system. 
+I am using PostgreSQL as it has a high availability and sacalibility (azure.microsoft, n.d.) , this means that any potential downtime is reduced. This is important as this system will be a 24/7 system. Furthermore, it provides data integrity and data security, which is also important for the CMS, as we need to ensure that two tenants cannot access each others data.
 
 ## References
 * Describing the UI, React (n.d.) https://react.dev/learn/describing-the-ui
