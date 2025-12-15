@@ -11,7 +11,8 @@ Icluding:
 * Seperate Databases for all tenants.
 
 ## Discussion
-Shared database is one way to approach this problem, this is where all tenants would share the same database but would get differentiated thorugh TenantID. 
+Shared database is one way to approach this problem, this is where all tenants would share the same database but would get differentiated through TenantID. 
+
 <img width="703" height="185" alt="image" src="https://github.com/user-attachments/assets/de6c0c11-2430-40c0-955e-f3790eb1443e" />
 
 * An advantage of this is that it easy quick and easy to onboard new tenants, which is important for this system, as it looks to target larger markets in the future. 
